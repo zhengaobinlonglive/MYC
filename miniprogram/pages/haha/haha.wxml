@@ -1,0 +1,5 @@
+<!--pages/haha/haha.wxml-->
+<view>{{info}}{{infos}}</view>
+<image src="{{imgSrc}}" mode="widthFix"/>
+<view>{{haha >= 10 ? '随机数字大与或等于10' : '随机数字小于10'}}</view>
+<view>{{haha1 * 100}}</view>

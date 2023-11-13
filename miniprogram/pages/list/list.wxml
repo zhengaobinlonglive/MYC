@@ -1,0 +1,50 @@
+<!--pages/list/list.wxml-->
+<swiper class="swiper-containe1" indicator-dots indicator-color="white" indicator-active-color="gray" autoplay="true" interval="2000" circular> 
+  <!-- 第一个轮播图 -->
+  <swiper-item>
+    <view class="item">
+      <image src="/images/tangseng.png" mode="aspectFill"></image>
+    </view>
+  </swiper-item>
+  <!-- 第二个轮播图 -->
+  <swiper-item>
+    <view class="item">B</view>
+  </swiper-item>
+  <!-- 第三个轮播图 -->
+  <swiper-item>
+    <view class="item">C</view>
+  </swiper-item>
+</swiper>
+<view>
+  手机号码
+  <text selectable="">17532310315</text>
+</view>
+<rich-text nodes="<h1 style='color: green;'>猫与柴</h1>"/>
+<!-- 通过type属性指定按钮的类型 -->
+<button>哈哈哈</button>
+<button type="default">哈哈哈</button>
+<button type="primary">哈哈哈</button>
+<button type="warn">哈哈哈</button>
+<!-- 小尺寸按钮 -->
+<button size="mini">哈哈哈</button>
+<button type="default" size="mini">哈哈哈</button>
+<button type="primary" size="mini">哈哈哈</button>
+<button type="warn" size="mini">哈哈哈</button>
+<!-- 镂空按钮 -->
+<button size="mini" plain>哈哈哈</button>
+<button type="default" size="mini" plain>哈哈哈</button>
+<button type="primary" size="mini" plain>哈哈哈</button>
+<button type="warn" size="mini" plain="true">哈哈哈</button>
+<image src="/images/tangseng.png" mode="widthFix"></image>
+<!-- 简单的div -->
+<!-- <view class="containe1">
+  <view>A</view>
+  <view>B</view>
+  <view>C</view>
+</view> -->
+<!-- scroll-y-允许纵向 scroll-x-允许横向 -->
+<!-- <scroll-view class="containe1" scroll-y>
+  <view>A</view>
+  <view>B</view>
+  <view>C</view>
+</scroll-view> -->
